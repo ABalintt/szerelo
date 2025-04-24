@@ -1,0 +1,397 @@
+﻿<Window x:Class="SzereloWPF.Pages.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzereloWPF.Pages"
+        mc:Ignorable="d"
+        Title="Szerelő Műhely Adminisztráció" Height="600" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" BorderBrush="LightGray" BorderThickness="0,0,1,0" Background="#F0F0F0">
+            <StackPanel Margin="10">
+                <Label Content="Navigáció" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                <Button Name="ButtonNavigateCustomers" Content="Ügyfelek" Margin="0,5" Padding="5" Click="NavigateButton_Click"/>
+                <Button Name="ButtonNavigateVehicles" Content="Járművek" Margin="0,5" Padding="5" Click="NavigateButton_Click"/>
+                <Button Name="ButtonNavigateAppointments" Content="Időpontok" Margin="0,5" Padding="5" Click="NavigateButton_Click"/>
+                <Button Name="ButtonNavigateEmployees" Content="Dolgozók" Margin="0,5" Padding="5" Click="NavigateButton_Click"/>
+                <Button Name="ButtonNavigateRepairs" Content="Javítások" Margin="0,5" Padding="5" Click="NavigateButton_Click"/>
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Column="1" Name="ContentArea">
+            <Grid Name="CustomersView" Visibility="Visible">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,10,0">
+                    <Button Name="ButtonExportExcel_Customers" Content="Export Excel" Padding="5,2" Margin="5,0" Click="ButtonExportExcel_Customers_Click"/>
+                </StackPanel>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ListView Grid.Column="0" Name="UgyfelListView" SelectionChanged="UgyfelListView_SelectionChanged" Margin="10">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Név" DisplayMemberBinding="{Binding Nev}" Width="150"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <Border Grid.Column="1" BorderBrush="LightGray" BorderThickness="1" Margin="10" Padding="10" Name="UgyfelDetailPanel">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox Grid.Row="0" Grid.Column="1" Name="TextBoxUgyfelId" Visibility="Collapsed" IsReadOnly="True"/>
+
+                            <Label Grid.Row="1" Grid.Column="0" Content="Ügyfél neve:" Margin="0,2"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Name="TextBoxUgyfelNev" Margin="0,2"/>
+
+                            <Label Grid.Row="2" Grid.Column="0" Content="Email cím:" Margin="0,2"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Name="TextBoxUgyfelEmail" Margin="0,2"/>
+
+                            <Label Grid.Row="3" Grid.Column="0" Content="Telefonszám:" Margin="0,2"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" Name="TextBoxUgyfelTelefon" Margin="0,2"/>
+
+                            <Label Grid.Row="4" Grid.Column="0" Content="Lakcím:" Margin="0,2"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Name="TextBoxUgyfelLakcim" Margin="0,2"/>
+
+                            <StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                                <Button Name="ButtonUjUgyfel" Content="Új Ügyfél" Margin="5,0" Padding="5,2" Click="ButtonUjUgyfel_Click"/>
+                                <Button Name="ButtonMentUgyfel" Content="Mentés" Margin="5,0" Padding="5,2" Click="ButtonMentUgyfel_Click"/>
+                                <Button Name="ButtonTorolUgyfel" Content="Törlés" Margin="5,0" Padding="5,2" Click="ButtonTorolUgyfel_Click"/>
+                            </StackPanel>
+
+                            <Label Grid.Row="6" Grid.Column="0" Content="Járművek száma:" Margin="0,2"/>
+                            <Label Grid.Row="6" Grid.Column="1" Name="LabelJarmuvekSzama" Margin="0,2"/>
+
+                            <DataGrid Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Name="JarmuvekGrid" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,5">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Rendszám" Binding="{Binding Rendszam}" Width="*"/>
+                                    <DataGridTextColumn Header="Márka" Binding="{Binding Marka}" Width="*"/>
+                                    <DataGridTextColumn Header="Modell" Binding="{Binding Modell}" Width="*"/>
+                                    <DataGridTextColumn Header="Évjárat" Binding="{Binding GyartasiEv}" Width="Auto"/>
+                                    <DataGridTextColumn Header="Km óra" Binding="{Binding KmOraAllas}" Width="Auto"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Grid>
+
+            <Grid Name="VehiclesView" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,10,0">
+                    <Button Name="ButtonExportExcel_Vehicles" Content="Export Excel" Padding="5,2" Margin="5,0" Click="ButtonExportExcel_Vehicles_Click"/>
+                </StackPanel>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <ListView Grid.Column="0" Name="JarmuListView" SelectionChanged="JarmuListView_SelectionChanged" Margin="10">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Rendszám" DisplayMemberBinding="{Binding Rendszam}" Width="Auto"/>
+                                <GridViewColumn Header="Márka" DisplayMemberBinding="{Binding Marka}" Width="Auto"/>
+                                <GridViewColumn Header="Modell" DisplayMemberBinding="{Binding Modell}" Width="Auto"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <Border Grid.Column="1" BorderBrush="LightGray" BorderThickness="1" Margin="10" Padding="10" Name="JarmuDetailPanel">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox Grid.Row="0" Grid.Column="1" Name="TextBoxJarmuId" Visibility="Collapsed" IsReadOnly="True"/>
+
+                            <Label Grid.Row="1" Grid.Column="0" Content="Ügyfél:"/>
+                            <ComboBox Grid.Row="1" Grid.Column="1" Name="ComboBoxJarmuUgyfel" DisplayMemberPath="Nev" SelectedValuePath="UgyfelId" IsReadOnly="True"/>
+
+
+                            <Label Grid.Row="2" Grid.Column="0" Content="Rendszám:" Margin="0,2"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Name="TextBoxJarmuRendszam" Margin="0,2"/>
+
+                            <Label Grid.Row="3" Grid.Column="0" Content="Alvázszám:" Margin="0,2"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" Name="TextBoxJarmuAlvazszam" Margin="0,2"/>
+
+                            <Label Grid.Row="4" Grid.Column="0" Content="Márka:" Margin="0,2"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Name="TextBoxJarmuMarka" Margin="0,2"/>
+
+                            <Label Grid.Row="5" Grid.Column="0" Content="Modell:" Margin="0,2"/>
+                            <TextBox Grid.Row="5" Grid.Column="1" Name="TextBoxJarmuModell" Margin="0,2"/>
+
+                            <Label Grid.Row="6" Grid.Column="0" Content="Gyártási év:" Margin="0,2"/>
+                            <TextBox Grid.Row="6" Grid.Column="1" Name="TextBoxJarmuGyartasiEv" Margin="0,2"/>
+
+                            <Label Grid.Row="7" Grid.Column="0" Content="Km óra állás:" Margin="0,2"/>
+                            <TextBox Grid.Row="7" Grid.Column="1" Name="TextBoxJarmuKmOraAllas" Margin="0,2"/>
+
+                            <StackPanel Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                                <Button Name="ButtonUjJarmu" Content="Új Jármű" Margin="5,0" Padding="5,2" Click="ButtonUjJarmu_Click"/>
+                                <Button Name="ButtonMentJarmu" Content="Mentés" Margin="5,0" Padding="5,2" Click="ButtonMentJarmu_Click"/>
+                                <Button Name="ButtonTorolJarmu" Content="Törlés" Margin="5,0" Padding="5,2" Click="ButtonTorolJarmu_Click"/>
+                            </StackPanel>
+
+
+                            <DataGrid Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" Name="JarmuJavitasokGrid" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,5">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Megnevezés" Binding="{Binding Megnevezes}" Width="1.5*"/>
+                                    <DataGridTextColumn Header="Leírás" Binding="{Binding Leiras}" Width="2*"/>
+                                    <DataGridTextColumn Header="Költség" Binding="{Binding Koltseg}" Width="Auto"/>
+                                    <DataGridTextColumn Header="Dátum" Binding="{Binding Datum, StringFormat=\{0:yyyy-MM-dd HH:mm\}}" Width="Auto"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Grid>
+
+            <Grid Name="AppointmentsView" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,10,0">
+                    <Button Name="ButtonExportExcel_Appointments" Content="Export Excel" Padding="5,2" Margin="5,0" Click="ButtonExportExcel_Appointments_Click"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+                    <Label Content="Szűrés dátum szerint:"/>
+                    <DatePicker Name="DpFilterDate" Width="150" Margin="5,0"/>
+                    <Button Name="ButtonFilterDates" Content="Szűrés" Margin="5,0" Padding="5" Click="ButtonFilterDates_Click"/>
+                    <Button Name="ButtonShowAllDates" Content="Összes időpont" Margin="5,0" Padding="5" Click="ButtonShowAllDates_Click"/>
+                </StackPanel>
+
+                <DataGrid Grid.Row="1" Name="IdopontokGrid" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="IdopontokGrid_SelectionChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Dátum" Binding="{Binding Datum, StringFormat=\{0:yyyy-MM-dd HH:mm\}}" Width="*"/>
+                        <DataGridTextColumn Header="Nap" Binding="{Binding Nap}" Width="*"/>
+                        <DataGridTextColumn Header="Státusz" Binding="{Binding Statusz}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Border Grid.Row="2" BorderBrush="LightGray" BorderThickness="1" Margin="10" Padding="10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Row="0" Grid.Column="1" Name="TextBoxIdopontId" Visibility="Collapsed" IsReadOnly="True"/>
+
+                        <Label Grid.Row="1" Grid.Column="0" Content="Dátum:"/>
+                        <DatePicker Grid.Row="1" Grid.Column="1" Name="DatePickerIdopontDatum" Margin="0,2"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Nap:"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Name="TextBoxIdopontNap" Margin="0,2"/>
+
+                        <Label Grid.Row="3" Grid.Column="0" Content="Státusz:"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Name="TextBoxIdopontStatusz" Margin="0,2"/>
+
+                        <Label Grid.Row="4" Grid.Column="0" Content="Ügyfél (foglalja):"/>
+                        <ComboBox Grid.Row="4" Grid.Column="1" Name="ComboBoxIdopontUgyfel" DisplayMemberPath="Nev" SelectedValuePath="UgyfelId" Margin="0,2"/>
+
+                        <StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                            <Button Name="ButtonUjIdopont" Content="Új Időpont" Margin="5,0" Padding="5,2" Click="ButtonUjIdopont_Click"/>
+                            <Button Name="ButtonMentIdopont" Content="Mentés" Margin="5,0" Padding="5,2" Click="ButtonMentIdopont_Click"/>
+                            <Button Name="ButtonTorolIdopont" Content="Törlés" Margin="5,0" Padding="5,2" Click="ButtonTorolIdopont_Click"/>
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+            </Grid>
+
+            <Grid Name="EmployeesView" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,10,0">
+                    <Button Name="ButtonExportExcel_Employees" Content="Export Excel" Padding="5,2" Margin="5,0" Click="ButtonExportExcel_Employees_Click"/>
+                </StackPanel>
+
+                <ListView Grid.Row="1" Grid.Column="0" Name="DolgozoListView" SelectionChanged="DolgozoListView_SelectionChanged" Margin="10">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Név" DisplayMemberBinding="{Binding Nev}" Width="Auto"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <Border Grid.Row="1" Grid.Column="1" BorderBrush="LightGray" BorderThickness="1" Margin="10" Padding="10" Name="DolgozoDetailPanel">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Row="0" Grid.Column="1" Name="TextBoxDolgozoId" Visibility="Collapsed" IsReadOnly="True"/>
+
+                        <Label Grid.Row="1" Grid.Column="0" Content="Dolgozó neve:" Margin="0,2"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" Name="TextBoxDolgozoNev" Margin="0,2"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Beosztás:" Margin="0,2"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Name="TextBoxDolgozoBeosztas" Margin="0,2"/>
+
+                        <Label Grid.Row="3" Grid.Column="0" Content="Email cím:" Margin="0,2"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Name="TextBoxDolgozoEmail" Margin="0,2"/>
+
+                        <Label Grid.Row="4" Grid.Column="0" Content="Telefonszám:" Margin="0,2"/>
+                        <TextBox Grid.Row="4" Grid.Column="1" Name="TextBoxDolgozoTelefon" Margin="0,2"/>
+
+                        <Label Grid.Row="5" Grid.Column="0" Content="Lakcím:" Margin="0,2"/>
+                        <TextBox Grid.Row="5" Grid.Column="1" Name="TextBoxDolgozoLakcim" Margin="0,2"/>
+
+                        <Label Grid.Row="6" Grid.Column="0" Content="Szig. szám:" Margin="0,2"/>
+                        <TextBox Grid.Row="6" Grid.Column="1" Name="TextBoxDolgozoSzig" Margin="0,2"/>
+
+                        <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                            <Button Name="ButtonUjDolgozo" Content="Új Dolgozó" Margin="5,0" Padding="5,2" Click="ButtonUjDolgozo_Click"/>
+                            <Button Name="ButtonMentDolgozo" Content="Mentés" Margin="5,0" Padding="5,2" Click="ButtonMentDolgozo_Click"/>
+                            <Button Name="ButtonTorolDolgozo" Content="Törlés" Margin="5,0" Padding="5,2" Click="ButtonTorolDolgozo_Click"/>
+                        </StackPanel>
+
+
+                        <Label Grid.Row="8" Grid.Column="0" Content="Javítások száma:" Margin="0,2"/>
+                        <Label Grid.Row="8" Grid.Column="1" Name="LabelJavitasokSzama" Margin="0,2"/>
+
+                    </Grid>
+                </Border>
+            </Grid>
+
+            <Grid Name="RepairsView" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,10,10">
+                    <Button Name="ButtonExportExcel_Repairs" Content="Export Excel" Padding="5,2" Margin="5,0" Click="ButtonExportExcel_Repairs_Click"/>
+                </StackPanel>
+
+                <DataGrid Grid.Row="1" Name="JavitasokGrid" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="JavitasokGrid_SelectionChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding JavitasId}" Width="Auto"/>
+                        <DataGridTextColumn Header="Megnevezés" Binding="{Binding Megnevezes}" Width="1.5*"/>
+                        <DataGridTextColumn Header="Leírás" Binding="{Binding Leiras}" Width="2*"/>
+                        <DataGridTextColumn Header="Költség" Binding="{Binding Koltseg, StringFormat=C, ConverterCulture='hu-HU'}" Width="Auto"/>
+                        <DataGridTextColumn Header="Dátum" Binding="{Binding Datum, StringFormat=\{0:yyyy-MM-dd HH:mm\}}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Border Grid.Row="2" BorderBrush="LightGray" BorderThickness="0,1,0,0" Margin="10" Padding="10" Name="JavitasDetailPanel">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Grid.Row="0" Grid.Column="1" Name="TextBoxJavitasId" Visibility="Collapsed" IsReadOnly="True"/>
+
+                        <Label Grid.Row="1" Grid.Column="0" Content="Megnevezés:" Margin="0,2"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" Name="TextBoxJavitasMegnevezes" Margin="0,2"/>
+
+                        <Label Grid.Row="2" Grid.Column="0" Content="Leírás:" Margin="0,2"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Name="TextBoxJavitasLeiras" Margin="0,2" TextWrapping="Wrap" AcceptsReturn="True" Height="60"/>
+
+                        <Label Grid.Row="3" Grid.Column="0" Content="Költség (Ft):" Margin="0,2"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Name="TextBoxJavitasKoltseg" Margin="0,2"/>
+
+                        <Label Grid.Row="4" Grid.Column="0" Content="Dátum:" Margin="0,2"/>
+                        <DatePicker Grid.Row="4" Grid.Column="1" Name="DatePickerJavitasDatum" Margin="0,2"/>
+
+                        <Label Grid.Row="5" Grid.Column="0" Content="Jármű:" Margin="0,2"/>
+                        <ComboBox Grid.Row="5" Grid.Column="1" Name="ComboBoxJavitasJarmu" DisplayMemberPath="Rendszam" SelectedValuePath="JarmuId" Margin="0,2"/>
+
+                        <Label Grid.Row="6" Grid.Column="0" Content="Végezte (Dolgozó):" Margin="0,2"/>
+                        <ComboBox Grid.Row="6" Grid.Column="1" Name="ComboBoxJavitasDolgozo" DisplayMemberPath="Nev" SelectedValuePath="DolgozoId" Margin="0,2"/>
+
+                        <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                            <Button Name="ButtonUjJavitas" Content="Új Javítás" Margin="5,0" Padding="5,2" Click="ButtonUjJavitas_Click"/>
+                            <Button Name="ButtonMentJavitas" Content="Mentés" Margin="5,0" Padding="5,2" Click="ButtonMentJavitas_Click"/>
+                            <Button Name="ButtonTorolJavitas" Content="Törlés" Margin="5,0" Padding="5,2" Click="ButtonTorolJavitas_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>

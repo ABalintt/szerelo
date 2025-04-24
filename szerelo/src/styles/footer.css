@@ -1,0 +1,140 @@
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__about {
+  animation-delay: 0.2s;
+}
+
+.footer__links {
+  animation-delay: 0.4s;
+}
+
+.footer__contact {
+  animation-delay: 0.6s;
+}
+
+.footer__social {
+  animation-delay: 0.8s;
+}
+
+.footer__about,
+.footer__links,
+.footer__contact,
+.footer__social {
+  flex: 1 1 200px;
+  margin: 0.5rem;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.footer__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__links ul,
+.footer__contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links li,
+.footer__contact li {
+  margin-bottom: 0.3rem;
+}
+
+.footer__links a,
+.footer__contact a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__links a:hover,
+.footer__contact a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Social media icons */
+.footer__social .social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__social .social-icons a {
+  font-size: 1.5rem;
+  color: #ddd;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer__social .social-icons a:hover {
+  color: #fff;
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-4px);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(-2px);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+}
+
+.footer__bottom {
+  text-align: center;
+  margin-top: 1.5rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__about,
+  .footer__links,
+  .footer__contact,
+  .footer__social {
+    flex: none;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+
+  .footer__social .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+}

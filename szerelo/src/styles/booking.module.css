@@ -1,0 +1,244 @@
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formColumns {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.column h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #0056b3;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formGroup label {
+  font-weight: bold;
+  color: #555;
+  font-size: 0.95em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+.react-datepicker-wrapper input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.datePickerInput {
+  width: 100%;
+}
+
+select[disabled] {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.error {
+  border-color: #dc3545 !important;
+  background-color: #fff8f8;
+}
+
+.errorMsg {
+  color: #dc3545;
+  font-size: 0.85em;
+  margin-top: 2px;
+}
+
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.submitButton {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.submitButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.confirmation {
+  text-align: center;
+  padding: 40px 20px 60px 20px;
+  margin: 200px auto 200px;
+  background-color: #e7f7ec;
+  border: 1px solid #b8e0c8;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.confirmation h2 {
+  color: #155724;
+  margin-bottom: 15px;
+}
+
+.confirmation p {
+  color: #333;
+}
+
+.fullWidthError {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.fullWidthError .errorMsg {
+  color: #721c24;
+  font-weight: bold;
+}
+
+
+@media (max-width: 992px) {
+  .formColumns {
+    gap: 20px;
+  }
+
+  .column {
+    min-width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 785px) {
+  .container {
+    padding: 15px;
+  }
+
+  .formColumns {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .column {
+    min-width: 100%;
+    padding: 15px;
+  }
+
+  .submitButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.react-datepicker-popper {
+  z-index: 10;
+}
+
+.react-datepicker {
+  font-size: 0.9rem;
+}
+
+.autocompleteContainer {
+  position: relative;
+}
+
+.suggestionsList {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  left: 0;
+  top: 100%;
+}
+
+.suggestionsList li {
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.suggestionsList li:last-child {
+  border-bottom: none;
+}
+
+.suggestionsList li:hover {
+  background-color: #f0f0f0;
+}
+
+input:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
