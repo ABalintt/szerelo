@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}|SzervizAPIUnuitTest\\SzervizAPIUnuitTest.csproj|c:\\users\\nd_info2005a2\\onedrive\\\u00FAj mappa (2)\\szervizapi\\szervizapiunuittest\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}|SzervizAPIUnuitTest\\SzervizAPIUnuitTest.csproj|solutionrelative:szervizapiunuittest\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}|SzervizAPIUnuitTest\\SzervizAPIUnuitTest.csproj|c:\\users\\nd_info2005a2\\onedrive\\\u00FAj mappa (2)\\szervizapi\\szervizapiunuittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}|SzervizAPIUnuitTest\\SzervizAPIUnuitTest.csproj|solutionrelative:szervizapiunuittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\database\\szervizcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\database\\szervizcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\controllers\\ugyfelekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\controllers\\ugyfelekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\controllers\\javitasokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\controllers\\javitasokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\controllers\\jarmuvekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\controllers\\jarmuvekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\controllers\\idopontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\controllers\\idopontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\controllers\\dolgozocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\controllers\\dolgozocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\vegez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\vegez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\elvegzi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\elvegzi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\idopont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\idopont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\ugyfelek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\ugyfelek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\javitasok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\javitasok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\jarmuvek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\jarmuvek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\models\\foglal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\models\\foglal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\szervizapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}|SzervizAPI\\SzervizAPI.csproj|solutionrelative:szervizapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Iskola 2024-25\\Autoszerelo\\Backend\\SzervizAPI\\SzervizAPI\\Models\\Kapcsolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest2.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPIUnuitTest\\UnitTest2.cs",
+              "RelativeDocumentMoniker": "SzervizAPIUnuitTest\\UnitTest2.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPIUnuitTest\\UnitTest2.cs",
+              "RelativeToolTip": "SzervizAPIUnuitTest\\UnitTest2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:10:39.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPIUnuitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SzervizAPIUnuitTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPIUnuitTest\\UnitTest1.cs",
+              "RelativeToolTip": "SzervizAPIUnuitTest\\UnitTest1.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:21:14.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JavitasokController.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\JavitasokController.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Controllers\\JavitasokController.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\JavitasokController.cs",
+              "RelativeToolTip": "SzervizAPI\\Controllers\\JavitasokController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:27:37.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DolgozoController.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\DolgozoController.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Controllers\\DolgozoController.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\DolgozoController.cs",
+              "RelativeToolTip": "SzervizAPI\\Controllers\\DolgozoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:29:19.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SzervizContext.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Database\\SzervizContext.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Database\\SzervizContext.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Database\\SzervizContext.cs",
+              "RelativeToolTip": "SzervizAPI\\Database\\SzervizContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:33:37.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Jarmuvek.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Jarmuvek.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Jarmuvek.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Jarmuvek.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Jarmuvek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:34:25.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JarmuvekController.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\JarmuvekController.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Controllers\\JarmuvekController.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\JarmuvekController.cs",
+              "RelativeToolTip": "SzervizAPI\\Controllers\\JarmuvekController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:22:49.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdopontController.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\IdopontController.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Controllers\\IdopontController.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\IdopontController.cs",
+              "RelativeToolTip": "SzervizAPI\\Controllers\\IdopontController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAlwGgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:19:20.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UgyfelekController.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\UgyfelekController.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Controllers\\UgyfelekController.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Controllers\\UgyfelekController.cs",
+              "RelativeToolTip": "SzervizAPI\\Controllers\\UgyfelekController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:33:05.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Javitasok.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Javitasok.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Javitasok.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Javitasok.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Javitasok.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:34:43.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Idopont.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Idopont.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Idopont.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Idopont.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Idopont.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:33:58.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ugyfelek.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Ugyfelek.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Ugyfelek.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Ugyfelek.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Ugyfelek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:37:10.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dolgozo.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Dolgozo.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Dolgozo.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Dolgozo.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Dolgozo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:36:39.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Foglal.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Foglal.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Foglal.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Foglal.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Foglal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:48:06.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Elvegzi.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Elvegzi.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Elvegzi.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Elvegzi.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Elvegzi.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:48:37.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vegez.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Vegez.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\Models\\Vegez.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Models\\Vegez.cs",
+              "RelativeToolTip": "SzervizAPI\\Models\\Vegez.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:49:01.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Kapcsolo.cs",
+              "DocumentMoniker": "F:\\Iskola 2024-25\\Autoszerelo\\Backend\\SzervizAPI\\SzervizAPI\\Models\\Kapcsolo.cs",
+              "ToolTip": "F:\\Iskola 2024-25\\Autoszerelo\\Backend\\SzervizAPI\\SzervizAPI\\Models\\Kapcsolo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:36:03.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Web.config",
+              "RelativeDocumentMoniker": "SzervizAPI\\Web.config",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\Web.config",
+              "RelativeToolTip": "SzervizAPI\\Web.config",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-23T14:37:45.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "SzervizAPI\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\nd_info2005a2\\OneDrive\\\u00DAj mappa (2)\\SzervizAPI\\SzervizAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "SzervizAPI\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:18:14.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

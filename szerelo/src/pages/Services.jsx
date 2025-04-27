@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/services.css";
 import { Link } from "react-router-dom";
-import { FaWrench, FaOilCan, FaCarCrash, FaSlidersH, FaSearch, FaSnowflake } from "react-icons/fa";
+import { FaWrench, FaOilCan, FaCarCrash, FaSlidersH, FaSearch, FaSnowflake, FaCar, FaBatteryFull, FaCarSide, FaTint, FaGlassWhiskey, FaBolt, FaClipboardCheck } from "react-icons/fa";
 
 const Services = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const servicesList = [
     {
       id: 1,
@@ -46,6 +51,62 @@ const Services = () => {
       description: "Teljes klíma rendszer átvizsgálása, tisztítása és feltöltése.",
       price: "18.000 Ft-tól",
       icon: FaSnowflake
+    },
+    {
+      id: 7,
+      title: "Gumicsere és szezonális tárolás",
+      description: "Gumiabroncsok szakszerű cseréje és igény esetén szezonális tárolása.",
+      price: "10.000 Ft-tól",
+      icon: FaCar
+    },
+    {
+      id: 8,
+      title: "Akkumulátor csere és ellenőrzés",
+      description: "Az akkumulátor állapotának vizsgálata és szükség esetén cseréje.",
+      price: "15.000 Ft-tól",
+      icon: FaBatteryFull
+    },
+    {
+      id: 9,
+      title: "Kipufogórendszer javítás",
+      description: "Kipufogórendszer elemeinek javítása vagy cseréje.",
+      price: "20.000 Ft-tól",
+      icon: FaCarSide
+    },
+    {
+      id: 10,
+      title: "Fékfolyadék csere",
+      description: "A fékfolyadék rendszeres cseréje a fékhatás optimális szinten tartásához.",
+      price: "10.000 Ft-tól",
+      icon: FaTint
+    },
+    {
+      id: 11,
+      title: "Hűtőrendszer javítás",
+      description: "Hűtő, vízpumpa, termosztát és csövek ellenőrzése, javítása vagy cseréje.",
+      price: "25.000 Ft-tól",
+      icon: FaSnowflake
+    },
+    {
+      id: 12,
+      title: "Szélvédő javítás/csere",
+      description: "Kisebb sérülések javítása vagy teljes szélvédő csere.",
+      price: "15.000 Ft-tól",
+      icon: FaGlassWhiskey
+    },
+    {
+      id: 13,
+      title: "Elektromos rendszer hibaelhárítás",
+      description: "Autó elektromos rendszereinek vizsgálata és javítása.",
+      price: "12.000 Ft-tól",
+      icon: FaBolt
+    },
+    {
+      id: 14,
+      title: "Vásárlás előtti átvizsgálás",
+      description: "Használt autó teljes körű átvizsgálása vásárlás előtt.",
+      price: "20.000 Ft-tól",
+      icon: FaClipboardCheck
     }
   ];
 

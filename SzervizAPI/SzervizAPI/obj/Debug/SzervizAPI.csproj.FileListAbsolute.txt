@@ -1,0 +1,1046 @@
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll.config
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\SzervizAPI.pdb
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe.config
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csc.rsp
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe.config
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csi.rsp
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.AppContext.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Console.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe.config
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\vbc.rsp
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\EntityFramework.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\Swashbuckle.Core.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\WebActivatorEx.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\EntityFramework.xml
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.xml
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.xml
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CopyComplete
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.dll
+C:\Users\nd_info2005a2\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.pdb
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll.config
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\SzervizAPI.pdb
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csc.rsp
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csi.rsp
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Console.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\vbc.rsp
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\EntityFramework.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\WebActivatorEx.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.pdb
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.pdb
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll.config
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\SzervizAPI.pdb
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe.config
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csc.rsp
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe.config
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\csi.rsp
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.AppContext.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Console.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe.config
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\vbc.rsp
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\EntityFramework.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\WebActivatorEx.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CopyComplete
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Google.Protobuf.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Renci.SshNet.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Buffers.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Memory.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Ubiety.Dns.Core.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Zstandard.Net.dll
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Google.Protobuf.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\Renci.SshNet.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Buffers.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Memory.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.xml
+C:\Users\áb_info2005e\Downloads\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll.config
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\SzervizAPI.pdb
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe.config
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csc.rsp
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe.config
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\csi.rsp
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.AppContext.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Console.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe.config
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\vbc.rsp
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\EntityFramework.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Google.Protobuf.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\MySql.Data.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Renci.SshNet.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Buffers.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Memory.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Ubiety.Dns.Core.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\WebActivatorEx.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Zstandard.Net.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Google.Protobuf.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\MySql.Data.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Renci.SshNet.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Buffers.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Memory.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CopyComplete
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.dll
+C:\Users\áb_info2005e\Desktop\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.pdb
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll.config
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\SzervizAPI.pdb
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe.config
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csc.rsp
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe.config
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csi.rsp
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.AppContext.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Console.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe.config
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\vbc.rsp
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\EntityFramework.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Google.Protobuf.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Renci.SshNet.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Buffers.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Memory.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Ubiety.Dns.Core.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\WebActivatorEx.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Zstandard.Net.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Google.Protobuf.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Renci.SshNet.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Buffers.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Memory.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.Up2Date
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.dll
+C:\Users\nd_info2005a2\Desktop\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.pdb
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll.config
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\SzervizAPI.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\SzervizAPI.pdb
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csc.exe.config
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csc.rsp
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csi.exe.config
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\csi.rsp
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.AppContext.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Console.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\vbc.exe.config
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\vbc.rsp
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\EntityFramework.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Google.Protobuf.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Renci.SshNet.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Buffers.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Memory.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Ubiety.Dns.Core.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\WebActivatorEx.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Zstandard.Net.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Google.Protobuf.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Renci.SshNet.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Buffers.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Memory.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.pdb
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.Up2Date
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Castle.Core.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Options.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Moq.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Text.Encodings.Web.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.ValueTuple.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Web.Cors.dll
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Castle.Core.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Options.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Text.Encodings.Web.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\nd_info2005a2\OneDrive\Új mappa (2)\SzervizAPI\SzervizAPI\bin\System.ValueTuple.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Castle.Core.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Google.Protobuf.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Options.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Moq.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Renci.SshNet.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Buffers.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Memory.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Text.Encodings.Web.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.ValueTuple.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Cors.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Ubiety.Dns.Core.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Zstandard.Net.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Castle.Core.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Google.Protobuf.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\K4os.Hash.xxHash.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Options.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Renci.SshNet.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Buffers.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Memory.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Numerics.Vectors.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Text.Encodings.Web.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.ValueTuple.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\obj\Debug\SzervizAPI.csproj.CopyComplete
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Bálint\Downloads\SzervizAPI\SzervizAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\SzervizAPI.dll.config
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\SzervizAPI.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\SzervizAPI.pdb
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\csc.exe
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\csc.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\csc.rsp
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\csi.exe
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\csi.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\csi.rsp
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Console.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.exe
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.rsp
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Castle.Core.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\EntityFramework.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Google.Protobuf.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\K4os.Hash.xxHash.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Cors.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Options.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Moq.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\MySql.Data.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Renci.SshNet.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Buffers.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Memory.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Numerics.Vectors.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Text.Encodings.Web.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.ValueTuple.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Web.Cors.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Web.Http.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Ubiety.Dns.Core.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\WebActivatorEx.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Zstandard.Net.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Castle.Core.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Google.Protobuf.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\K4os.Hash.xxHash.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Cors.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Options.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\MySql.Data.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Renci.SshNet.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Buffers.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Memory.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Numerics.Vectors.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Text.Encodings.Web.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.ValueTuple.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Web.Http.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.CopyComplete
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.dll
+C:\Users\Bálint\Downloads\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.pdb
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\SzervizAPI.dll.config
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\SzervizAPI.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\SzervizAPI.pdb
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csc.exe
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csc.exe.config
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csc.rsp
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csi.exe
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csi.exe.config
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csi.rsp
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.AppContext.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Console.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Net.Http.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.exe
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.exe.config
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.rsp
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\BouncyCastle.Crypto.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Castle.Core.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\EntityFramework.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\EntityFramework.SqlServer.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Google.Protobuf.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Hash.xxHash.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Cors.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Options.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Primitives.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Net.Http.Headers.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Moq.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Renci.SshNet.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Buffers.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Memory.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Net.Http.Formatting.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Numerics.Vectors.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Text.Encodings.Web.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Threading.Tasks.Extensions.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.ValueTuple.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Cors.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.Cors.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.WebHost.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Ubiety.Dns.Core.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\WebActivatorEx.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Zstandard.Net.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Castle.Core.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\EntityFramework.SqlServer.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Google.Protobuf.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Hash.xxHash.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Cors.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Options.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Primitives.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Net.Http.Headers.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.pdb
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Renci.SshNet.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Buffers.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Memory.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Net.Http.Formatting.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Numerics.Vectors.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Text.Encodings.Web.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Threading.Tasks.Extensions.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.ValueTuple.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.Cors.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.WebHost.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.CopyComplete
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.dll
+H:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.pdb
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\SzervizAPI.dll.config
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\SzervizAPI.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\SzervizAPI.pdb
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csc.exe
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csc.exe.config
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csc.rsp
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csi.exe
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csi.exe.config
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\csi.rsp
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.AppContext.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Console.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Globalization.Calendars.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.Compression.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Net.Http.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Net.Sockets.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.ValueTuple.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XPath.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.exe
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.exe.config
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\vbc.rsp
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\VBCSCompiler.exe
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\BouncyCastle.Crypto.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Castle.Core.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\EntityFramework.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\EntityFramework.SqlServer.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Google.Protobuf.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.Streams.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Hash.xxHash.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Cors.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Options.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Primitives.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Net.Http.Headers.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Moq.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.EntityFramework.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Renci.SshNet.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Buffers.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Memory.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Net.Http.Formatting.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Numerics.Vectors.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Text.Encodings.Web.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Threading.Tasks.Extensions.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.ValueTuple.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Cors.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.Cors.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.WebHost.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Ubiety.Dns.Core.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\WebActivatorEx.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Zstandard.Net.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Castle.Core.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\EntityFramework.SqlServer.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Google.Protobuf.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Compression.LZ4.Streams.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\K4os.Hash.xxHash.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Cors.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Options.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Extensions.Primitives.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.Net.Http.Headers.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\MySql.Data.EntityFramework.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.pdb
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Newtonsoft.Json.Bson.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Renci.SshNet.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Buffers.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Memory.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Net.Http.Formatting.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Numerics.Vectors.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Text.Encodings.Web.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Threading.Tasks.Extensions.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.ValueTuple.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.Cors.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\System.Web.Http.WebHost.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.AssemblyReference.cache
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.CoreCompileInputs.cache
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.csproj.CopyComplete
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.dll
+E:\Nagy projekt\SzervizAPI4\SzervizAPI\obj\Debug\SzervizAPI.pdb

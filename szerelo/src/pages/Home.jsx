@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import "../styles/home.css";
-import workshopImage1 from '../images/pexels-cottonbro-4489794.jpg';
-import workshopImage2 from '../images/pexels-cottonbro-4489743.jpg';
-import workshopImage3 from '../images/pexels-cottonbro-4489707.jpg';
+import workshopImage1 from '../images/home1.jpg';
+import workshopImage2 from '../images/home2.jpg';
+import workshopImage3 from '../images/home4.jpg';
+import logo from '../images/logo-white.png';
 import { GiFlatTire } from "react-icons/gi";
-import { FaWrench, FaOilCan, FaCarCrash, FaSlidersH, FaSearch, FaSnowflake } from "react-icons/fa";
+import { FaWrench, FaOilCan } from "react-icons/fa";
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="home">
-      <section className="hero">
-        <div className="hero-content">
-          <h1 className='cim'>Üdvözöljük az Autószervizünkben!</h1>
+      <section className="kep">
+        <div className="kep-content">
+          <img src={logo} alt="Autószerviz Logó" className="site-logo" />
+          <h1 className='cim'>Üdvözöljük a Futóműhelynél!</h1>
           <p className='cim'>Megbízható és professzionális autójavítás Szombathelyen. Szakértő csapatunk várja, hogy segíthessen járműve karbantartásában és javításában!</p>
-          <Link to="/Booking" className="cta-button">Időpontfoglalás</Link>
+          <Link to="/Booking" className="button">Időpontfoglalás</Link>
         </div>
       </section>
 
@@ -57,15 +64,15 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="testimonials">
+      <section className="velemenyek">
         <div className="container">
           <h2>Vélemények</h2>
-          <div className="testimonial-items">
-            <div className="testimonial-item">
+          <div className="velemeny-items">
+            <div className="velemeny-item">
               <p>"Nagyon elégedett vagyok a szerviz munkájával. Gyorsak, profik és nagyon kedvesek voltak. Csak ajánlani tudom!"</p>
               <p className="customer-name">- Kovács Anna</p>
             </div>
-            <div className="testimonial-item">
+            <div className="velemeny-item">
               <p>"Már többször jártam itt, mindig kifogástalan munkát végeztek. Megbízható autószerviz Szombathelyen!"</p>
               <p className="customer-name">- Nagy Péter</p>
             </div>
@@ -94,8 +101,8 @@ const Home = () => {
           <p><i className="fas fa-map-marker-alt contact-icon"></i>Cím: <strong>Szombathely, Petőfi Utca 25.</strong></p>
 
           <div className="contact-buttons">
-            <Link to="/Booking" className="cta-button">Időpontfoglalás Online</Link>
-            <Link to="/contact" className="cta-button secondary">Írjon Nekünk Üzenetet</Link>
+            <Link to="/Booking" className="button">Időpontfoglalás Online</Link>
+            <Link to="/contact" className="button secondary">Írjon Nekünk Üzenetet</Link>
           </div>
         </div>
       </section>

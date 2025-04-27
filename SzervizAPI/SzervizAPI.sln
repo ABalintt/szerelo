@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzervizAPI", "SzervizAPI\SzervizAPI.csproj", "{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzervizAPIUnuitTest", "SzervizAPIUnuitTest\SzervizAPIUnuitTest.csproj", "{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBF8F54-DDC6-4623-9B59-E9454AC0EFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC17F05F-F3C7-4A9E-B069-AE7E759800DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {688BAA7B-7008-4F07-A468-65352A9AA101}
+	EndGlobalSection
+EndGlobal

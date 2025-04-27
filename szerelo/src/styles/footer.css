@@ -5,7 +5,7 @@
   font-family: Arial, sans-serif;
 }
 
-.footer__container {
+.footer_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -13,79 +13,89 @@
   margin: 0 auto;
 }
 
-.footer__about {
+.footer_about {
   animation-delay: 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer__links {
+.footer_logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+
+.footer_links {
   animation-delay: 0.4s;
 }
 
-.footer__contact {
+.footer_contact {
   animation-delay: 0.6s;
 }
 
-.footer__social {
+.footer_social {
   animation-delay: 0.8s;
 }
 
-.footer__about,
-.footer__links,
-.footer__contact,
-.footer__social {
+.footer_about,
+.footer_links,
+.footer_contact,
+.footer_social {
   flex: 1 1 200px;
   margin: 0.5rem;
 }
 
-.footer__title {
+.footer_title {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: white;
 }
 
-.footer__subtitle {
+.footer_subtitle {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-.footer__links ul,
-.footer__contact ul {
+.footer_links ul,
+.footer_contact ul {
   list-style: none;
   padding: 0;
 }
 
-.footer__links li,
-.footer__contact li {
+.footer_links li,
+.footer_contact li {
   margin-bottom: 0.3rem;
 }
 
-.footer__links a,
-.footer__contact a {
+.footer_links a,
+.footer_contact a {
   color: #ddd;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.footer__links a:hover,
-.footer__contact a:hover {
+.footer_links a:hover,
+.footer_contact a:hover {
   text-decoration: underline;
   color: #fff;
 }
 
 /* Social media icons */
-.footer__social .social-icons {
+.footer_social .social-icons {
   display: flex;
   gap: 1rem;
 }
 
-.footer__social .social-icons a {
+.footer_social .social-icons a {
   font-size: 1.5rem;
   color: #ddd;
   text-decoration: none;
   transition: transform 0.3s, color 0.3s;
 }
 
-.footer__social .social-icons a:hover {
+.footer_social .social-icons a:hover {
   color: #fff;
   animation: bounce 0.6s;
 }
@@ -108,7 +118,7 @@
   }
 }
 
-.footer__bottom {
+.footer_bottom {
   text-align: center;
   margin-top: 1.5rem;
   border-top: 1px solid #444;
@@ -117,23 +127,26 @@
 }
 
 @media (max-width: 768px) {
-  .footer__container {
+  .footer_container {
     flex-direction: column;
     align-items: center;
   }
 
-  .footer__about,
-  .footer__links,
-  .footer__contact,
-  .footer__social {
+  .footer_about,
+  .footer_links,
+  .footer_contact,
+  .footer_social {
     flex: none;
     width: 100%;
     text-align: center;
     margin: 1rem 0;
   }
 
+  .footer_about {
+      align-items: center;
+  }
 
-  .footer__social .social-icons {
+  .footer_social .social-icons {
     display: flex;
     justify-content: center;
   }

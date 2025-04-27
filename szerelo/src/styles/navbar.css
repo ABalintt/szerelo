@@ -16,15 +16,18 @@
 .navbar-logo {
   color: inherit;
   text-decoration: none;
-  font-size: 1.5rem;
+
   display: flex;
   align-items: center;
   gap: 0.5rem;
   flex-shrink: 0;
+  height: 50px;
 }
 
-.navbar-logo svg {
-  font-size: 1.8rem;
+.navbar-logo-img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 
 .navbar-controls {
@@ -51,11 +54,20 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  position: relative;
+  border-bottom: 2px solid transparent;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #ddd;
+  border-bottom-color: rgba(221, 221, 221, 0.5);
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: white;
+  border-bottom-color: white;
 }
 
 .navbar-icons {
@@ -75,27 +87,6 @@
   z-index: 110;
 }
 
-.nav-link {
-  color: inherit;
-  text-decoration: none;
-  padding: 0.5rem 0;
-  transition: color 0.3s ease, border-bottom-color 0.3s ease;
-  white-space: nowrap;
-  position: relative;
-  border-bottom: 2px solid transparent;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #ddd;
-  border-bottom-color: rgba(221, 221, 221, 0.5);
-}
-
-.nav-link.active {
-  font-weight: bold;
-  color: white;
-  border-bottom-color: white;
-}
 
 @media screen and (max-width: 785px) {
   .navbar-controls {

@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import "../styles/navbar.css";
-import { FaCar, FaBars, FaTimes, FaHome, FaWrench, FaCalendarAlt, FaEnvelope } from "react-icons/fa";
+import { FaBars, FaTimes, FaHome, FaWrench, FaCalendarAlt, FaEnvelope } from "react-icons/fa";
+import Logo from '../images/logo-white.png';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu} end>
-        <FaCar /> Autószerviz
+        <img src={Logo} alt="Autószerviz Logo" className="navbar-logo-img" />
       </NavLink>
 
       <div className="navbar-controls">

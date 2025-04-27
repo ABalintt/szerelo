@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SzereloWPF.Pages"
         mc:Ignorable="d"
-        Title="Szerelő Műhely Adminisztráció" Height="600" Width="900">
+        Title="Futóműhely Adminisztráció" Height="600" Width="900">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
@@ -316,7 +316,6 @@
                             <Button Name="ButtonMentDolgozo" Content="Mentés" Margin="5,0" Padding="5,2" Click="ButtonMentDolgozo_Click"/>
                             <Button Name="ButtonTorolDolgozo" Content="Törlés" Margin="5,0" Padding="5,2" Click="ButtonTorolDolgozo_Click"/>
                         </StackPanel>
-
 
                         <Label Grid.Row="8" Grid.Column="0" Content="Javítások száma:" Margin="0,2"/>
                         <Label Grid.Row="8" Grid.Column="1" Name="LabelJavitasokSzama" Margin="0,2"/>

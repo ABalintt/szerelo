@@ -12,6 +12,11 @@ registerLocale('hu', hu);
 const allMakes = Object.keys(carData);
 
 const Booking = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [formData, setFormData] = useState({
     service: '', date: null, time: '', name: '', Email_cim: '', phone: '', address: '', licensePlate: '', vin: '', make: '', model: '', year: '', mileage: ''
   });
@@ -20,18 +25,32 @@ const Booking = () => {
   const [showMakeSuggestions, setShowMakeSuggestions] = useState(false);
   const [modelSuggestions, setModelSuggestions] = useState([]);
   const [showModelSuggestions, setShowModelSuggestions] = useState(false);
-
   const [allAppointments, setAllAppointments] = useState([]);
   const [availableTimes, setAvailableTimes] = useState([]);
   const [errors, setErrors] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const servicesDurations = { 'Általános karbantartás, Olajcsere': 60, 'Fékrendszer javítás': 90, 'Futómű-beállítás': 120, 'Diagnosztika': 45, 'Klíma szerviz': 75, 'Egyéb': 60 };
+  const servicesDurations = { 'Általános karbantartás': 60, 'Olajcsere':45, 'Olajcsere':45, 'Fékrendszer javítás':90, 'Futómű beállítás':60, 'Diagnosztika':60, 'Klíma szerviz':90, 'Gumicsere és szezonális tárolás': 30, 'Akkumulátor csere és ellenőrzés': 30, 'Kipufogórendszer javítás': 120, 'Fékfolyadék csere': 60, 'Hűtőrendszer javítás': 180, 'Szélvédő javítás/csere': 60, 'Elektromos rendszer hibaelhárítás': 90, 'Vásárlás előtti átvizsgálás': 120, 'Egyéb': 60 };
 
   const services = Object.keys(servicesDurations);
 
   const workingHours = {
     start: 8, end: 16, interval: 30
+  };
+
+  const validateLicensePlate = (licensePlate) => {
+    const normalized = licensePlate.toUpperCase().replace(/\s/g, '');
+    const patterns = [
+      /^[A-Z]{3}-\d{3}$/,
+      /^[A-Z]{4}-\d{3}$/,
+      /^[A-Z]{4}-\d{2}$/,
+      /^[A-Z]{5}-\d{1}$/,
+      /^[A-Z]{3}-\d{4}$/,
+      /^[A-Z]{5}-\d{2}$/,
+      /^[A-Z]{6}-\d{1}$/
+    ];
+  
+    return patterns.some(pattern => pattern.test(normalized));
   };
 
   const fetchAppointments = async () => {
@@ -267,7 +286,11 @@ const Booking = () => {
     if (!/^\+?[0-9\s-]{9,}$/.test(formData.phone)) newErrors.phone = 'Érvénytelen telefonszám';
     if (!formData.address.trim()) newErrors.address = 'Adja meg a lakcímét';
 
-    if (!formData.licensePlate.trim()) newErrors.licensePlate = 'Adja meg a rendszámot';
+    if (!formData.licensePlate.trim()) {
+      newErrors.licensePlate = 'Adja meg a rendszámot';
+    } else if (!validateLicensePlate(formData.licensePlate)) {
+      newErrors.licensePlate = 'Érvénytelen formátum. Elfogadott minták: ABC-123, AABC-123, egyedi rendszámok';
+    }
     if (!formData.vin.trim()) newErrors.vin = 'Adja meg az alvázszámot';
 
     if (!formData.make.trim()) {
@@ -384,7 +407,7 @@ const Booking = () => {
           body: JSON.stringify(vehicleData),
         });
       } catch (vehicleError) {
-        console.warn('Vehicle data could not be saved:', vehicleError);
+        console.warn('Járművek mentése sikertelen', vehicleError);
       }
 
       const serviceId = 'service_7sfvd76';
@@ -433,21 +456,6 @@ const Booking = () => {
     setErrors(prev => ({ ...prev, date: undefined, time: undefined }));
   };
 
-  const getServiceDurationDisplay = (service) => {
-    if (!service) return "";
-    const duration = servicesDurations[service];
-    const hours = Math.floor(duration / 60);
-    const minutes = duration % 60;
-
-    if (hours > 0 && minutes > 0) {
-      return `(${hours} óra ${minutes} perc)`;
-    } else if (hours > 0) {
-      return `(${hours} óra)`;
-    } else {
-      return `(${minutes} perc)`;
-    }
-  };
-
   if (isSubmitted) {
     return (
       <div className={styles.confirmation}>
@@ -469,19 +477,11 @@ const Booking = () => {
               <h2>Időpont</h2>
               <div className={styles.formGroup}>
                 <label htmlFor="service">Szolgáltatás:</label>
-                <select
-                  id="service"
-                  name="service"
-                  value={formData.service}
-                  onChange={handleChange}
-                  className={errors.service ? styles.error : ''}
-                  aria-invalid={!!errors.service}
-                  aria-describedby={errors.service ? "service-error" : undefined}
-                >
+                <select id="service" name="service" value={formData.service} onChange={handleChange} className={errors.service ? styles.error : ''} aria-invalid={!!errors.service} aria-describedby={errors.service ? "service-error" : undefined}>
                   <option value="">-- Válasszon --</option>
                   {services.map((service) => (
                     <option key={service} value={service}>
-                      {service} {getServiceDurationDisplay(service)}
+                      {service}
                     </option>
                   ))}
                 </select>
@@ -490,45 +490,15 @@ const Booking = () => {
 
               <div className={styles.formGroup}>
                 <label htmlFor="date-picker">Dátum:</label>
-                <DatePicker
-                  locale="hu"
-                  id="date-picker"
-                  selected={formData.date}
-                  onChange={handleDateChange}
-                  minDate={new Date()}
-                  filterDate={isWeekday}
-                  dateFormat="yyyy/MM/dd"
-                  className={`${styles.datePickerInput} ${errors.date ? styles.error : ''}`}
-                  placeholderText="Válasszon napot"
-                  aria-required="true"
-                  aria-invalid={!!errors.date}
-                  aria-describedby={errors.date ? "date-error" : undefined}
-                  autoComplete="off"
-                />
+                <DatePicker locale="hu" id="date-picker" selected={formData.date} onChange={handleDateChange} minDate={new Date()} filterDate={isWeekday} dateFormat="yyyy/MM/dd" className={`${styles.datePickerInput} ${errors.date ? styles.error : ''}`} placeholderText="Válasszon napot" aria-required="true" aria-invalid={!!errors.date} aria-describedby={errors.date ? "date-error" : undefined} autoComplete="off"/>
                 {errors.date && <span id="date-error" className={styles.errorMsg}>{errors.date}</span>}
               </div>
 
               <div className={styles.formGroup}>
                 <label htmlFor="time">Időpont:</label>
-                <select
-                  id="time"
-                  name="time"
-                  value={formData.time}
-                  onChange={handleChange}
-                  className={errors.time ? styles.error : ''}
-                  disabled={!formData.date || !formData.service || availableTimes.length === 0}
-                  aria-required="true"
-                  aria-invalid={!!errors.time}
-                  aria-describedby={errors.time ? "time-error" : undefined}
-                >
+                <select id="time" name="time" value={formData.time} onChange={handleChange} className={errors.time ? styles.error : ''} disabled={!formData.date || !formData.service || availableTimes.length === 0} aria-required="true" aria-invalid={!!errors.time} aria-describedby={errors.time ? "time-error" : undefined}>
                   <option value="">
-                    {!formData.date
-                      ? 'Előbb válasszon dátumot'
-                      : !formData.service
-                        ? 'Előbb válasszon szolgáltatást'
-                        : availableTimes.length > 0
-                          ? '-- Válasszon --'
-                          : 'Nincs szabad időpont'}
+                    {!formData.date? 'Előbb válasszon dátumot': !formData.service? 'Előbb válasszon szolgáltatást': availableTimes.length > 0? '-- Válasszon --': 'Nincs szabad időpont'}
                   </option>
                   {availableTimes.map((time, index) => (
                     <option key={index} value={time.toTimeString().slice(0, 5)}>
@@ -537,11 +507,6 @@ const Booking = () => {
                   ))}
                 </select>
                 {errors.time && <span id="time-error" className={styles.errorMsg}>{errors.time}</span>}
-                {formData.service && formData.time && (
-                  <span className={styles.serviceDuration}>
-                    Időtartam: {getServiceDurationDisplay(formData.service).replace(/[()]/g, '')}
-                  </span>
-                )}
               </div>
             </div>
 
@@ -549,73 +514,25 @@ const Booking = () => {
               <h2>Személyes adatok</h2>
               <div className={styles.formGroup}>
                 <label htmlFor="name">Név:</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className={errors.name ? styles.error : ''}
-                  placeholder="Kiss János"
-                  aria-required="true"
-                  aria-invalid={!!errors.name}
-                  aria-describedby={errors.name ? "name-error" : undefined}
-                  autoComplete="name"
-                />
+                <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className={errors.name ? styles.error : ''} placeholder="Kiss János" aria-required="true" aria-invalid={!!errors.name} aria-describedby={errors.name ? "name-error" : undefined}/>
                 {errors.name && <span id="name-error" className={styles.errorMsg}>{errors.name}</span>}
               </div>
 
               <div className={styles.formGroup}>
                 <label htmlFor="Email_cim">Email:</label>
-                <input
-                  type="email"
-                  id="Email_cim"
-                  name="Email_cim"
-                  value={formData.Email_cim}
-                  onChange={handleChange}
-                  className={errors.Email_cim ? styles.error : ''}
-                  placeholder="pelda@email.hu"
-                  aria-required="true"
-                  aria-invalid={!!errors.Email_cim}
-                  aria-describedby={errors.Email_cim ? "email-error" : undefined}
-                  autoComplete="email"
-                />
+                <input type="email" id="Email_cim" name="Email_cim" value={formData.Email_cim} onChange={handleChange} className={errors.Email_cim ? styles.error : ''} placeholder="pelda@email.hu" aria-required="true" aria-invalid={!!errors.Email_cim} aria-describedby={errors.Email_cim ? "email-error" : undefined}/>
                 {errors.Email_cim && <span id="email-error" className={styles.errorMsg}>{errors.Email_cim}</span>}
               </div>
 
               <div className={styles.formGroup}>
                 <label htmlFor="phone">Telefonszám:</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className={errors.phone ? styles.error : ''}
-                  placeholder="+36 20 123 4567"
-                  aria-required="true"
-                  aria-invalid={!!errors.phone}
-                  aria-describedby={errors.phone ? "phone-error" : undefined}
-                  autoComplete="tel"
-                />
+                <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} className={errors.phone ? styles.error : ''} placeholder="+36 20 123 4567" aria-required="true" aria-invalid={!!errors.phone} aria-describedby={errors.phone ? "phone-error" : undefined}/>
                 {errors.phone && <span id="phone-error" className={styles.errorMsg}>{errors.phone}</span>}
               </div>
 
               <div className={styles.formGroup}>
                 <label htmlFor="address">Lakcím:</label>
-                <input
-                  type="text"
-                  id="address"
-                  name="address"
-                  value={formData.address}
-                  onChange={handleChange}
-                  className={errors.address ? styles.error : ''}
-                  placeholder="9700 Szombathely, Fő utca 1."
-                  aria-required="true"
-                  aria-invalid={!!errors.address}
-                  aria-describedby={errors.address ? "address-error" : undefined}
-                  autoComplete="street-address"
-                />
+                <input type="text" id="address" name="address" value={formData.address} onChange={handleChange} className={errors.address ? styles.error : ''} placeholder="9700 Szombathely, Fő utca 1." aria-required="true" aria-invalid={!!errors.address} aria-describedby={errors.address ? "address-error" : undefined}/>
                 {errors.address && <span id="address-error" className={styles.errorMsg}>{errors.address}</span>}
               </div>
             </div>
@@ -624,57 +541,19 @@ const Booking = () => {
               <h2>Autó adatai</h2>
               <div className={styles.formGroup}>
                 <label htmlFor="licensePlate">Rendszám:</label>
-                <input
-                  type="text"
-                  id="licensePlate"
-                  name="licensePlate"
-                  value={formData.licensePlate}
-                  onChange={handleChange}
-                  className={errors.licensePlate ? styles.error : ''}
-                  placeholder="AABC-123"
-                  aria-required="true"
-                  aria-invalid={!!errors.licensePlate}
-                  aria-describedby={errors.licensePlate ? "licensePlate-error" : undefined}
-                  style={{ textTransform: 'uppercase' }}
-                />
+                <input type="text" id="licensePlate" name="licensePlate" value={formData.licensePlate} onChange={handleChange} className={errors.licensePlate ? styles.error : ''} placeholder="AABC-123" aria-required="true" aria-invalid={!!errors.licensePlate} aria-describedby={errors.licensePlate ? "licensePlate-error" : undefined} style={{ textTransform: 'uppercase' }} maxLength="8"/>
                 {errors.licensePlate && <span id="licensePlate-error" className={styles.errorMsg}>{errors.licensePlate}</span>}
               </div>
 
               <div className={styles.formGroup}>
                 <label htmlFor="vin">Alvázszám (VIN):</label>
-                <input
-                  type="text"
-                  id="vin"
-                  name="vin"
-                  value={formData.vin}
-                  onChange={handleChange}
-                  className={errors.vin ? styles.error : ''}
-                  placeholder="17 karakter"
-                  maxLength="17"
-                  aria-required="true"
-                  aria-invalid={!!errors.vin}
-                  aria-describedby={errors.vin ? "vin-error" : undefined}
-                  style={{ textTransform: 'uppercase' }}
-                />
+                <input type="text" id="vin" name="vin" value={formData.vin} onChange={handleChange} className={errors.vin ? styles.error : ''} placeholder="17 karakter" maxLength="17" aria-required="true" aria-invalid={!!errors.vin} aria-describedby={errors.vin ? "vin-error" : undefined} style={{ textTransform: 'uppercase' }}/>
                 {errors.vin && <span id="vin-error" className={styles.errorMsg}>{errors.vin}</span>}
               </div>
 
               <div className={`${styles.formGroup} ${styles.autocompleteContainer}`}>
                 <label htmlFor="make">Márka:</label>
-                <input
-                  type="text"
-                  id="make"
-                  name="make"
-                  value={formData.make}
-                  onChange={handleMakeChange}
-                  onBlur={() => hideSuggestions()}
-                  className={errors.make ? styles.error : ''}
-                  placeholder="Kezdje el gépelni"
-                  aria-required="true"
-                  aria-invalid={!!errors.make}
-                  aria-describedby={errors.make ? "make-error" : undefined}
-                  autoComplete="off"
-                />
+                <input type="text" id="make" name="make" value={formData.make} onChange={handleMakeChange} onBlur={() => hideSuggestions()} className={errors.make ? styles.error : ''} placeholder="Kezdje el gépelni" aria-required="true" aria-invalid={!!errors.make} aria-describedby={errors.make ? "make-error" : undefined} autoComplete="off"/>
                 {errors.make && <span id="make-error" className={styles.errorMsg}>{errors.make}</span>}
                 {showMakeSuggestions && makeSuggestions.length > 0 && (
                   <ul className={styles.suggestionsList}>
@@ -692,23 +571,8 @@ const Booking = () => {
 
               <div className={`${styles.formGroup} ${styles.autocompleteContainer}`}>
                 <label htmlFor="model">Modell:</label>
-                <input
-                  type="text"
-                  id="model"
-                  name="model"
-                  value={formData.model}
-                  onChange={handleModelChange}
-                  onBlur={() => hideSuggestions()}
-                  className={errors.model ? styles.error : ''}
-                  placeholder={formData.make ? 'Kezdje el gépelni' : 'Előbb válasszon márkát'}
-                  aria-required="true"
-                  aria-invalid={!!errors.model}
-                  aria-describedby={errors.model ? "model-error" : undefined}
-                  disabled={!formData.make}
-                  autoComplete="off"
-                />
+                <input type="text" id="model" name="model" value={formData.model} onChange={handleModelChange} onBlur={() => hideSuggestions()} className={errors.model ? styles.error : ''} placeholder={formData.make ? 'Kezdje el gépelni' : 'Előbb válasszon márkát'} aria-required="true" aria-invalid={!!errors.model} aria-describedby={errors.model ? "model-error" : undefined} disabled={!formData.make} autoComplete="off"/>
                 {errors.model && <span id="model-error" className={styles.errorMsg}>{errors.model}</span>}
-
                 {showModelSuggestions && modelSuggestions.length > 0 && carData[formData.make] && (
                   <ul className={styles.suggestionsList}>
                     {modelSuggestions.map((model) => (
@@ -725,38 +589,13 @@ const Booking = () => {
 
               <div className={styles.formGroup}>
                 <label htmlFor="year">Gyártási év:</label>
-                <input
-                  type="number"
-                  id="year"
-                  name="year"
-                  value={formData.year}
-                  onChange={handleChange}
-                  className={errors.year ? styles.error : ''}
-                  placeholder="2015"
-                  min="1900"
-                  max={new Date().getFullYear()}
-                  aria-required="true"
-                  aria-invalid={!!errors.year}
-                  aria-describedby={errors.year ? "year-error" : undefined}
-                />
+                <input type="number" id="year" name="year" value={formData.year} onChange={handleChange} className={errors.year ? styles.error : ''} placeholder="2015" min="1900" max={new Date().getFullYear()} aria-required="true" aria-invalid={!!errors.year} aria-describedby={errors.year ? "year-error" : undefined}/>
                 {errors.year && <span id="year-error" className={styles.errorMsg}>{errors.year}</span>}
               </div>
 
               <div className={styles.formGroup}>
                 <label htmlFor="mileage">Km óra állás:</label>
-                <input
-                  type="number"
-                  id="mileage"
-                  name="mileage"
-                  value={formData.mileage}
-                  onChange={handleChange}
-                  className={errors.mileage ? styles.error : ''}
-                  placeholder="150000"
-                  min="0"
-                  aria-required="true"
-                  aria-invalid={!!errors.mileage}
-                  aria-describedby={errors.mileage ? "mileage-error" : undefined}
-                />
+                <input type="number" id="mileage" name="mileage" value={formData.mileage} onChange={handleChange} className={errors.mileage ? styles.error : ''} placeholder="150000" min="0" aria-required="true" aria-invalid={!!errors.mileage} aria-describedby={errors.mileage ? "mileage-error" : undefined}/>
                 {errors.mileage && <span id="mileage-error" className={styles.errorMsg}>{errors.mileage}</span>}
               </div>
             </div>

@@ -81,7 +81,6 @@ namespace SzereloWPF.Pages
             SetJavitasDetailPanelState(false);
         }
 
-
         private void InitializeDatabase()
         {
             try
@@ -278,7 +277,7 @@ namespace SzereloWPF.Pages
                                 Leiras = reader.IsDBNull(2) ? "" : reader.GetString(2),
                                 Koltseg = reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
                                 Datum = reader.IsDBNull(4) ? DateTime.MinValue : reader.GetDateTime(4)
-                    });
+                            });
                     }
                 }
                 JavitasokGrid.ItemsSource = _javitasok;
@@ -297,7 +296,6 @@ namespace SzereloWPF.Pages
             DatePickerJavitasDatum.IsEnabled = enable;
             ComboBoxJavitasJarmu.IsEnabled = enable;
             ComboBoxJavitasDolgozo.IsEnabled = enable;
-
             ButtonMentJavitas.IsEnabled = enable;
             ButtonTorolJavitas.IsEnabled = enable && !_isAddingNewJavitas;
             ButtonUjJavitas.IsEnabled = !enable;
@@ -376,7 +374,6 @@ namespace SzereloWPF.Pages
         {
             _isAddingNewJavitas = true;
             JavitasokGrid.SelectedItem = null;
-
             TextBoxJavitasId.Text = "";
             TextBoxJavitasMegnevezes.Text = "";
             TextBoxJavitasLeiras.Text = "";
@@ -436,10 +433,7 @@ namespace SzereloWPF.Pages
 
                     if (_isAddingNewJavitas)
                     {
-                        cmd.CommandText = @"
-                     INSERT INTO javitasok (Megnevezes, Leiras, Koltseg, Datum)
-                     VALUES (@Megnevezes, @Leiras, @Koltseg, @Datum);
-                     SELECT LAST_INSERT_ID();";
+                        cmd.CommandText = @"INSERT INTO javitasok (Megnevezes, Leiras, Koltseg, Datum) VALUES (@Megnevezes, @Leiras, @Koltseg, @Datum); SELECT LAST_INSERT_ID();";
                         cmd.Parameters.AddWithValue("@Megnevezes", TextBoxJavitasMegnevezes.Text);
                         cmd.Parameters.AddWithValue("@Leiras", TextBoxJavitasLeiras.Text);
                         cmd.Parameters.AddWithValue("@Koltseg", koltseg);
@@ -657,7 +651,6 @@ namespace SzereloWPF.Pages
             _isAddingNewIdopont = false;
             _isAddingNewDolgozo = false;
 
-
             HideAllViews();
 
             switch (button.Name)
@@ -717,7 +710,6 @@ namespace SzereloWPF.Pages
             TextBoxUgyfelEmail.IsReadOnly = !enable;
             TextBoxUgyfelTelefon.IsReadOnly = !enable;
             TextBoxUgyfelLakcim.IsReadOnly = !enable;
-
             ButtonMentUgyfel.IsEnabled = enable;
             ButtonTorolUgyfel.IsEnabled = enable && !_isAddingNewUgyfel;
             ButtonUjUgyfel.IsEnabled = !enable;
@@ -739,7 +731,6 @@ namespace SzereloWPF.Pages
                 TextBoxUgyfelLakcim.Text = ugyfel.Lakcim;
 
                 LoadJarmuvekForUgyfel(ugyfel.UgyfelId);
-
             }
             else
             {
@@ -796,7 +787,6 @@ namespace SzereloWPF.Pages
 
                 JarmuvekGrid.ItemsSource = jarmuvek;
                 LabelJarmuvekSzama.Content = jarmuvek.Count.ToString();
-
             }
             catch (Exception ex)
             {
@@ -810,7 +800,6 @@ namespace SzereloWPF.Pages
         {
             _isAddingNewUgyfel = true;
             UgyfelListView.SelectedItem = null;
-
             TextBoxUgyfelId.Text = "";
             TextBoxUgyfelNev.Text = "";
             TextBoxUgyfelEmail.Text = "";
@@ -890,7 +879,6 @@ namespace SzereloWPF.Pages
                 _isAddingNewUgyfel = false;
                 SetUgyfelDetailPanelState(false);
                 UgyfelListView.SelectedItem = null;
-
             }
             catch (Exception ex)
             {
@@ -912,7 +900,7 @@ namespace SzereloWPF.Pages
                 return;
             }
 
-            var result = MessageBox.Show($"Biztosan törölni szeretné az ügyfelet (ID: {ugyfelId})?\nFIGYELEM: Ez törölheti a kapcsolódó járműveket, javításokat és időpontokat is a CASCADE törlési szabályoktól függően!", "Törlés megerősítése", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            var result = MessageBox.Show($"Biztosan törölni szeretné az ügyfelet (ID: {ugyfelId})?\nFIGYELEM: Ez törölheti a kapcsolódó járműveket, javításokat és időpontokat is!", "Törlés megerősítése", MessageBoxButton.YesNo, MessageBoxImage.Warning);
 
             if (result == MessageBoxResult.Yes)
             {
@@ -977,7 +965,6 @@ namespace SzereloWPF.Pages
             TextBoxIdopontNap.IsReadOnly = !enable;
             TextBoxIdopontStatusz.IsReadOnly = !enable;
             ComboBoxIdopontUgyfel.IsEnabled = enable;
-
             ButtonMentIdopont.IsEnabled = enable;
             ButtonTorolIdopont.IsEnabled = enable && !_isAddingNewIdopont;
             ButtonUjIdopont.IsEnabled = !enable;
@@ -1133,10 +1120,7 @@ namespace SzereloWPF.Pages
 
                 if (_isAddingNewJarmu)
                 {
-                    cmd.CommandText = @"
-                         INSERT INTO jarmuvek (Rendszam, Alvazszam, Marka, Modell, Gyartasi_ev, Km_ora_allas, Ugyfel_id)
-                         VALUES (@Rendszam, @Alvazszam, @Marka, @Modell, @GyartasiEv, @KmOraAllas, @UgyfelId);
-                         SELECT LAST_INSERT_ID();";
+                    cmd.CommandText = @"INSERT INTO jarmuvek (Rendszam, Alvazszam, Marka, Modell, Gyartasi_ev, Km_ora_allas, Ugyfel_id) VALUES (@Rendszam, @Alvazszam, @Marka, @Modell, @GyartasiEv, @KmOraAllas, @UgyfelId); SELECT LAST_INSERT_ID();";
 
                     cmd.Parameters.AddWithValue("@Rendszam", TextBoxJarmuRendszam.Text);
                     cmd.Parameters.AddWithValue("@Alvazszam", TextBoxJarmuAlvazszam.Text);
@@ -1146,11 +1130,9 @@ namespace SzereloWPF.Pages
                     cmd.Parameters.AddWithValue("@KmOraAllas", kmOraAllas);
                     cmd.Parameters.AddWithValue("@UgyfelId", selectedUgyfelId);
 
-
                     int newJarmuId = Convert.ToInt32(cmd.ExecuteScalar());
 
                     MessageBox.Show($"Új jármű sikeresen hozzáadva! ID: {newJarmuId}", "Siker", MessageBoxButton.OK, MessageBoxImage.Information);
-
                 }
                 else
                 {
@@ -1187,7 +1169,6 @@ namespace SzereloWPF.Pages
                 _isAddingNewJarmu = false;
                 SetJarmuDetailPanelState(false);
                 JarmuListView.SelectedItem = null;
-
             }
             catch (Exception ex)
             {
@@ -1409,9 +1390,7 @@ namespace SzereloWPF.Pages
                         if (selectedUgyfelId.HasValue)
                         {
                             cmd.Parameters.Clear();
-                            cmd.CommandText = @"
-                                    INSERT INTO foglal (Idopont_id, Ugyfel_id)
-                                    VALUES (@IdopontId, @UgyfelId);";
+                            cmd.CommandText = @"INSERT INTO foglal (Idopont_id, Ugyfel_id) VALUES (@IdopontId, @UgyfelId);";
                             cmd.Parameters.AddWithValue("@IdopontId", newIdopontId);
                             cmd.Parameters.AddWithValue("@UgyfelId", selectedUgyfelId.Value);
                             cmd.ExecuteNonQuery();
@@ -1420,8 +1399,6 @@ namespace SzereloWPF.Pages
 
                         MessageBox.Show($"Új időpont sikeresen hozzáadva! ID: {newIdopontId}", "Siker", MessageBoxButton.OK, MessageBoxImage.Information);
                     }
-
-
                 }
                 else
                 {
@@ -1576,7 +1553,6 @@ namespace SzereloWPF.Pages
                 TextBoxDolgozoTelefon.Text = "";
                 TextBoxDolgozoLakcim.Text = "";
                 TextBoxDolgozoSzig.Text = "";
-
                 LabelJavitasokSzama.Content = "";
             }
         }
@@ -1626,7 +1602,6 @@ namespace SzereloWPF.Pages
             TextBoxDolgozoTelefon.Text = "";
             TextBoxDolgozoLakcim.Text = "";
             TextBoxDolgozoSzig.Text = "";
-
             LabelJavitasokSzama.Content = "";
 
             SetDolgozoDetailPanelState(true);
@@ -1649,7 +1624,6 @@ namespace SzereloWPF.Pages
                 MessageBox.Show("Dolgozó neve és beosztása kötelező!", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-
 
             try
             {
@@ -1689,7 +1663,6 @@ namespace SzereloWPF.Pages
                     cmd.Parameters.AddWithValue("@Szig", TextBoxDolgozoSzig.Text);
                     cmd.Parameters.AddWithValue("@DolgozoId", dolgozoId);
 
-
                     int rowsAffected = cmd.ExecuteNonQuery();
 
                     if (rowsAffected > 0)
@@ -1707,7 +1680,6 @@ namespace SzereloWPF.Pages
                 _isAddingNewDolgozo = false;
                 SetDolgozoDetailPanelState(false);
                 DolgozoListView.SelectedItem = null;
-
             }
             catch (Exception ex)
             {
