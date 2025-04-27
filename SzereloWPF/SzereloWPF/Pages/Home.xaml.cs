@@ -90,7 +90,7 @@ namespace SzereloWPF.Pages
             return Regex.IsMatch(phone, @"^\+?[0-9]{7,}$");
         }
 
-        private bool IsValidHungarianLicensePlate(string plate)
+        private bool IsValidLicensePlate(string plate)
         {
             if (string.IsNullOrWhiteSpace(plate)) return false;
             return Regex.IsMatch(plate.ToUpper(), @"^[A-Z]{3}-[0-9]{3}$") || Regex.IsMatch(plate.ToUpper(), @"^[A-Z]{4}-[0-9]{3}$");
@@ -884,7 +884,7 @@ namespace SzereloWPF.Pages
                 return;
             }
 
-            if (!IsValidHungarianLicensePlate(TextBoxJarmuRendszam.Text))
+            if (!IsValidLicensePlate(TextBoxJarmuRendszam.Text))
             {
                 MessageBox.Show("Érvénytelen vagy hiányzó rendszám! (Formátum: AAA-123 vagy AAAA-123)", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
                 TextBoxJarmuRendszam.Focus();
